@@ -1,0 +1,15 @@
+{
+    "eslintConfig": {
+      "extends": ["react-app", "shared-config"],
+      "rules": {
+        "additional-rule": "warn"
+      },
+      "overrides": [
+        {
+          "rules": {
+            "no-unused-vars": "off"
+          }
+        }
+      ]
+    }
+  }
